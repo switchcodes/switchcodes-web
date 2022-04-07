@@ -43,7 +43,8 @@
 
 	.spacer {
 		height: 100%;
-		margin: 0 10em;
+		width: calc(100% - 20em);
+		/* margin: 0 10em; */
 	}
 
 	#hero {

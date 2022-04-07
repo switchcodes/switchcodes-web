@@ -68,12 +68,12 @@
 </div>
 
 <style>
-	.todos {
+	/* .todos {
 		width: 100%;
 		max-width: var(--column-width);
 		margin: var(--column-margin-top) auto 0 auto;
 		line-height: 1;
-	}
+	} */
 
 	.new {
 		margin: 0 0 0.5rem 0;
