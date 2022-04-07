@@ -1,0 +1,25 @@
+<script context="module">
+	export const prerender = true;
+</script>
+
+<svelte:head>
+	<title>Projects</title>
+</svelte:head>
+
+<section>
+<h1>Projects</h1>
+</section>
+
+<style>
+	section {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		flex: 1;
+	}
+
+	h1 {
+		width: 100%;
+	}
+</style>
