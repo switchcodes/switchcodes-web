@@ -3,7 +3,6 @@
 </script>
 
 <script>
-	import Counter from '$lib/Counter.svelte';
 </script>
 
 <svelte:head>
@@ -11,49 +10,67 @@
 </svelte:head>
 
 <section>
-	<h1>
-		<div class="welcome">
-			<picture>
-				<source srcset="svelte-welcome.webp" type="image/webp" />
-				<img src="svelte-welcome.png" alt="Welcome" />
-			</picture>
+	<div id="hero">
+		<div class="spacer">
+			<h1>We make projects for fun</h1>
+			<h2>
+				The community is always there to give helpful advice,<br />
+				become a part of it
+			</h2>
+			<input type="button" value="Start now" />
 		</div>
-
-		to your new<br />SvelteKit app
-	</h1>
-
-	<h2>
-		try editing <strong>src/routes/index.svelte</strong>
-	</h2>
-
-	<Counter />
+	</div>
 </section>
 
 <style>
 	section {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		flex: 1;
+		width: 100%;
+		height: 100%;
+	}
+
+	input {
+		width: fit-content;
+		height: fit-content;
+		border: none;
+		color: #fff;
+		background-color: var(--button-bg-color);
+		font-size: 2em;
+		font-weight: 600;
+		padding: 0.4em 1.5em;
+		cursor: pointer;
+		margin-top: 3em;
+	}
+
+	.spacer {
+		height: 100%;
+		margin: 0 10em;
+	}
+
+	#hero {
+		width: 100%;
+		aspect-ratio: 1920/700;
+		background-image: url('../assets/heroBanner_HD.png');
+		background-repeat: round;
+		background-size: cover;
 	}
 
 	h1 {
-		width: 100%;
+		color: var(--headline-text-color);
+		text-align: left;
+		font-size: 5em;
+		font-weight: 500;
+		margin: 0;
+		padding: 0;
+		padding-top: 1.5em;
 	}
 
-	.welcome {
-		position: relative;
-		width: 100%;
-		height: 0;
-		padding: 0 0 calc(100% * 495 / 2048) 0;
-	}
-
-	.welcome img {
-		position: absolute;
-		width: 100%;
-		height: 100%;
-		top: 0;
-		display: block;
+	h2 {
+		color: var(--headline-text-color);
+		text-align: left;
+		font-size: 2em;
+		font-weight: 400;
+		margin: 0;
+		margin-top: 0.8em;
+		padding: 0;
 	}
 </style>

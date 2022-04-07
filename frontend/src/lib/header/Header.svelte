@@ -1,70 +1,83 @@
 <script>
 	import { page } from '$app/stores';
-	import Logo from "../../assets/logo.svg"
+	import Logo from '../../assets/logo.svg';
 </script>
 
 <header>
 	<nav>
-		<ul>
-			<li class:active={$page.url.pathname === '/about'}>
-				<a sveltekit:prefetch href="/about">About</a>
-			</li>
-			<li class:active={$page.url.pathname === '/projects'}>
-				<a sveltekit:prefetch href="/projects">Projects</a>
-			</li>
-			<li class:active={$page.url.pathname === '/'}>
-				<a sveltekit:prefetch href="/" id="logo">
-					<img src={Logo} alt="Logo of Switchcodes, contains text and image">
-				</a>
-			</li>
-			<li class:active={$page.url.pathname === '/inspiration'}>
-				<a sveltekit:prefetch href="/inspiration">Inspiration</a>
-			</li>
-			<li class:active={$page.url.pathname === '/contact'}>
-				<a sveltekit:prefetch href="/contact">Contact</a>
-			</li>
-		</ul>
+		<div class="desktopView">
+			<ul>
+				<li class:active={$page.url.pathname === '/about'}>
+					<a sveltekit:prefetch href="/about">About</a>
+				</li>
+				<li class:active={$page.url.pathname === '/projects'}>
+					<a sveltekit:prefetch href="/projects">Projects</a>
+				</li>
+				<li class:active={$page.url.pathname === '/'}>
+					<a sveltekit:prefetch href="/" id="logo">
+						<img src={Logo} alt="Logo of Switchcodes, contains text and image" />
+					</a>
+				</li>
+				<li class:active={$page.url.pathname === '/inspiration'}>
+					<a sveltekit:prefetch href="/inspiration">Inspiration</a>
+				</li>
+				<li class:active={$page.url.pathname === '/contact'}>
+					<a sveltekit:prefetch href="/contact">Contact</a>
+				</li>
+			</ul>
+		</div>
+		<div class="mobileView">
+			<ul>
+				<li class:active={$page.url.pathname === '/'}>
+					<a sveltekit:prefetch href="/" id="logo">
+						<img src={Logo} alt="Logo of Switchcodes, contains text and image" />
+					</a>
+				</li>
+				<li>
+					<svg
+						width="49"
+						height="41"
+						viewBox="0 0 49 41"
+						fill="none"
+						xmlns="http://www.w3.org/2000/svg"
+					>
+						<rect width="49" height="8" fill="#61B8E8" />
+						<rect y="11" width="49" height="8" fill="#269DE0" />
+						<rect y="22" width="49" height="8" fill="#1978AD" />
+						<rect y="33" width="49" height="8" fill="#115175" />
+					</svg>
+				</li>
+			</ul>
+		</div>
 	</nav>
 </header>
 
 <style>
+	.mobileView {
+		display: none;
+	}
+
+	.desktopView {
+		display: block;
+	}
+
 	header {
 		width: 100%;
 	}
 
-	.corner a {
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		width: 100%;
-		height: 100%;
-	}
-
-	.corner img {
-		width: 2em;
-		height: 2em;
-		object-fit: contain;
-	}
-
 	nav {
-		display: flex;
 		width: 100%;
-		justify-content: center;
 		--background: white;
 	}
 
-	nav li img{
+	nav li img {
 		height: 75%;
 		width: min-content;
 	}
 
-	#logo{
+	#logo {
 		display: grid;
 		place-content: center;
-	}
-
-	path {
-		fill: var(--background);
 	}
 
 	ul {
@@ -104,8 +117,8 @@
 		align-items: center;
 		padding: 0 1em;
 		color: var(--heading-color);
-		font-weight: 700;
-		font-size: 0.8rem;
+		font-weight: 500;
+		font-size: 1.5em;
 		text-transform: uppercase;
 		letter-spacing: 0.1em;
 		text-decoration: none;
@@ -114,5 +127,27 @@
 
 	a:hover {
 		color: var(--accent-color);
+	}
+
+	@media (max-width: 78.125em) {
+		.desktopView {
+			display: none;
+		}
+
+		.mobileView {
+			display: block;
+		}
+		ul {
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+			align-items: center;
+		}
+		li:nth-child(2) {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			padding-right: 1em;
+		}
 	}
 </style>
