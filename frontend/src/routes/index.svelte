@@ -1,5 +1,6 @@
 <script context="module">
 	export const prerender = true;
+	import heroBannerHD from '$lib/../assets/herobanner_HD.png';
 </script>
 
 <script>
@@ -9,69 +10,13 @@
 	<title>Home</title>
 </svelte:head>
 
-<section>
-	<div id="hero">
-		<div class="spacer">
-			<h1>We make projects for fun</h1>
-			<h2>
-				The community is always there to give helpful advice,<br />
-				become a part of it
-			</h2>
-			<input type="button" value="Start now" />
-		</div>
+<section class="relative">
+	<img
+		src={heroBannerHD}
+		class="w-full h-auto"
+		alt="displays a rendered version of the switchcodes logo"
+	/>
+	<div class="absolute top-60 left-40 font-barlow text-bright1 text-9xl font-medium">
+		We make projects for fun
 	</div>
 </section>
-
-<style>
-	section {
-		width: 100%;
-		height: 100%;
-	}
-
-	input {
-		width: fit-content;
-		height: fit-content;
-		border: none;
-		color: #fff;
-		background-color: var(--button-bg-color);
-		font-size: 2em;
-		font-weight: 600;
-		padding: 0.4em 1.5em;
-		cursor: pointer;
-		margin-top: 3em;
-	}
-
-	.spacer {
-		height: 100%;
-		width: calc(100% - 20em);
-		/* margin: 0 10em; */
-	}
-
-	#hero {
-		width: 100%;
-		aspect-ratio: 1920/700;
-		background-image: url('../assets/heroBanner_HD.png');
-		background-repeat: round;
-		background-size: cover;
-	}
-
-	h1 {
-		color: var(--headline-text-color);
-		text-align: left;
-		font-size: 5em;
-		font-weight: 500;
-		margin: 0;
-		padding: 0;
-		padding-top: 1.5em;
-	}
-
-	h2 {
-		color: var(--headline-text-color);
-		text-align: left;
-		font-size: 2em;
-		font-weight: 400;
-		margin: 0;
-		margin-top: 0.8em;
-		padding: 0;
-	}
-</style>

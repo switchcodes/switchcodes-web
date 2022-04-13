@@ -32,7 +32,51 @@
 	<p>
 		The page you're looking at is purely static HTML, with no client-side interactivity needed.
 		Because of that, we don't need to load any JavaScript. Try viewing the page's source, or opening
-		the devtools network panel and reloading.
+		the devtools network panel and reloading. Lorem ipsum dolor sit amet, consectetur adipisicing
+		elit. Laborum adipisci consequuntur exercitationem dolores? Sapiente temporibus delectus
+		distinctio autem beatae voluptas eveniet molestiae, tempore aliquam in consectetur magni illo
+		voluptatem quod! Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi blanditiis
+		harum tempora alias necessitatibus mollitia dolorem voluptatum unde, quasi voluptas deserunt ex
+		libero impedit sint, minima nobis officiis, provident atque. Lorem ipsum dolor sit, amet
+		consectetur adipisicing elit. Enim delectus tenetur minima velit, veritatis magni ducimus
+		reiciendis molestiae ea impedit atque. Corporis maxime illo perspiciatis architecto molestiae
+		dignissimos rem veniam labore earum iusto distinctio minima asperiores accusamus nihil est quae
+		voluptatem doloremque quidem, veritatis quo? Ab aspernatur hic eveniet libero! Excepturi
+		corrupti sed optio aliquam officiis ut quam culpa, quidem tempora provident fugiat molestias
+		enim accusamus debitis deleniti repudiandae. Repellendus perferendis consequuntur suscipit
+		adipisci, minus rerum! Dicta praesentium nostrum repudiandae sit. Sit consequatur error ab
+		cupiditate maxime incidunt illo cum est. The page you're looking at is purely static HTML, with
+		no client-side interactivity needed. Because of that, we don't need to load any JavaScript. Try
+		viewing the page's source, or opening the devtools network panel and reloading. Lorem ipsum
+		dolor sit amet, consectetur adipisicing elit. Laborum adipisci consequuntur exercitationem
+		dolores? Sapiente temporibus delectus distinctio autem beatae voluptas eveniet molestiae,
+		tempore aliquam in consectetur magni illo voluptatem quod! Lorem ipsum dolor sit amet
+		consectetur adipisicing elit. Excepturi blanditiis harum tempora alias necessitatibus mollitia
+		dolorem voluptatum unde, quasi voluptas deserunt ex libero impedit sint, minima nobis officiis,
+		provident atque. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim delectus tenetur
+		minima velit, veritatis magni ducimus reiciendis molestiae ea impedit atque. Corporis maxime
+		illo perspiciatis architecto molestiae dignissimos rem veniam labore earum iusto distinctio
+		minima asperiores accusamus nihil est quae voluptatem doloremque quidem, veritatis quo? Ab
+		aspernatur hic eveniet libero! Excepturi corrupti sed optio aliquam officiis ut quam culpa,
+		quidem tempora provident fugiat molestias enim accusamus debitis deleniti repudiandae.
+		Repellendus perferendis consequuntur suscipit adipisci, minus rerum! Dicta praesentium nostrum
+		repudiandae sit. Sit consequatur error ab cupiditate maxime incidunt illo cum est. The page
+		you're looking at is purely static HTML, with no client-side interactivity needed. Because of
+		that, we don't need to load any JavaScript. Try viewing the page's source, or opening the
+		devtools network panel and reloading. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+		Laborum adipisci consequuntur exercitationem dolores? Sapiente temporibus delectus distinctio
+		autem beatae voluptas eveniet molestiae, tempore aliquam in consectetur magni illo voluptatem
+		quod! Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi blanditiis harum
+		tempora alias necessitatibus mollitia dolorem voluptatum unde, quasi voluptas deserunt ex libero
+		impedit sint, minima nobis officiis, provident atque. Lorem ipsum dolor sit, amet consectetur
+		adipisicing elit. Enim delectus tenetur minima velit, veritatis magni ducimus reiciendis
+		molestiae ea impedit atque. Corporis maxime illo perspiciatis architecto molestiae dignissimos
+		rem veniam labore earum iusto distinctio minima asperiores accusamus nihil est quae voluptatem
+		doloremque quidem, veritatis quo? Ab aspernatur hic eveniet libero! Excepturi corrupti sed optio
+		aliquam officiis ut quam culpa, quidem tempora provident fugiat molestias enim accusamus debitis
+		deleniti repudiandae. Repellendus perferendis consequuntur suscipit adipisci, minus rerum! Dicta
+		praesentium nostrum repudiandae sit. Sit consequatur error ab cupiditate maxime incidunt illo
+		cum est.
 	</p>
 
 	<p>

@@ -5,15 +5,6 @@
 
 <Header />
 
-<main>
+<main class="w-full h-full p-0 m-0 relative">
 	<slot />
 </main>
-
-<style>
-	main {
-		width: 100%;
-		height: 100%;
-		padding: 0;
-		margin: 0;
-	}
-</style>
