@@ -27,7 +27,8 @@
 		"prettier-plugin-svelte": "^2.5.0",
 		"svelte": "^3.46.0",
 		"svelte-preprocess": "^4.10.5",
-		"tailwindcss": "^3.0.23"
+		"tailwindcss": "^3.0.23",
+		"vite-imagetools": "^4.0.3"
 	},
 	"type": "module",
 	"dependencies": {

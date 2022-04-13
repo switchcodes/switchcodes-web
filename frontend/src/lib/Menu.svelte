@@ -1,7 +1,7 @@
 <script>
 	let menuVisible = false;
 	let styling =
-		'absolute bg-red-400 top-full right-0 p-4 gap-3 font-barlow font-light text-3xl text-right';
+		'absolute bg-bright1 drop-shadow-md top-[calc(full-100rem)] right-0 p-4 gap-3 font-barlow font-light text-3xl text-right';
 	let btnHandler = () => {
 		menuVisible = !menuVisible;
 	};
@@ -17,6 +17,14 @@
 		</svg>
 	</button>
 	<ul class={menuVisible ? styling + ' grid' : 'hidden'}>
+		<svg
+			class="h-5 w-full absolute top-0 stroke-darkbg stroke-1"
+			viewBox="0 0 32 7"
+			preserveAspectRatio="none"
+		>
+			<path d="M0 3 L22 3 L25 1 L28 3 L32 3" fill="none" />
+			<path d="M0 6 L22 6 L25 4 L28 6 L32 6" fill="none" />
+		</svg>
 		<li on:click={btnHandler}>
 			<a sveltekit:prefetch href="/about" class="active:font-medium"> About </a>
 		</li>
@@ -29,5 +37,13 @@
 		<li on:click={btnHandler}>
 			<a sveltekit:prefetch href="/contact" class="active:font-medium"> Contact </a>
 		</li>
+		<svg
+			class="h-5 w-full absolute bottom-0 stroke-darkbg stroke-1"
+			viewBox="0 0 32 7"
+			preserveAspectRatio="none"
+		>
+			<path d="M0 3 L32 3" fill="none" />
+			<path d="M0 6 L32 6" fill="none" />
+		</svg>
 	</ul>
 </div>
