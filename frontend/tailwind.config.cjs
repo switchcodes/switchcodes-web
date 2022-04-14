@@ -13,9 +13,14 @@ const config = {
 			colors: {
 				bright1: '#ffffff',
 				darkbg: '#040A17',
+				darkblue: '#182D4F',
+				darkblue2: '#0A0E18',
 				dark0: '#115175',
 				dark1: '#269de0',
 				dark2: '#52b9f5'
+			},
+			borderWidth: {
+				16: '16px'
 			}
 		}
 	},

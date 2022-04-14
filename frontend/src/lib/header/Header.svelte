@@ -4,18 +4,18 @@
 	import Menu from '$lib/Menu.svelte';
 </script>
 
-<header class="flex flex-col w-auto sticky top-0 z-50">
+<header class="flex flex-col w-auto sticky top-0 z-50 h-fit">
 	<!-- class:active={$page.url.pathname === '/about'} -->
 	<!-- sveltekit:prefetch href="/about" -->
-	<nav class="bg-white/60 w-auto backdrop-blur-sm">
-		<ul class=" hidden md:grid grid-cols-5 place-items-center h-16 font-barlow text-4xl">
+	<nav class="bg-white/60 w-auto backdrop-blur-sm h-fit">
+		<ul class=" hidden md:grid grid-cols-5 place-items-center h-36 font-barlow text-4xl">
 			<li>
 				<a sveltekit:prefetch href="/about" class="active:font-medium select-none"> About </a>
 			</li>
 			<li>
 				<a sveltekit:prefetch href="/projects" class="active:font-medium select-none"> Projects </a>
 			</li>
-			<li class="relative before:w-full before:h-1 before:absolute before:bottom-0 before:bg-dark0">
+			<li class="relative">
 				<a sveltekit:prefetch href="/">
 					<svg
 						class="w-full h-full py-3"
@@ -105,170 +105,3 @@
 		</ul>
 	</nav>
 </header>
-
-<style>
-	/* .mobileView {
-		display: block;
-	}
-
-	.desktopView {
-		display: none;
-	}
-
-	#hbmenu {
-		padding-left: 1em;
-		padding-right: 1em;
-	}
-
-	header {
-		width: 100%;
-	}
-
-	nav {
-		width: 100%;
-	}
-
-	nav li img {
-		width: 70%;
-	}
-	a {
-		width: min-content;
-	}
-
-	#logo {
-		display: grid;
-		place-content: center;
-	}
-
-	.mobileMenu ul {
-		display: flex;
-		flex-direction: column;
-	} */
-
-	/* ul { */
-	/* position: relative;
-		padding: 0;
-		margin: 0;
-		height: fit-content;
-		display: flex;
-		flex-direction: column;
-		flex-wrap: wrap;
-		-ms-flex-wrap: wrap; */
-	/* gap: 5em; */
-	/* max-width: 100%;
-		width: 100%;
-		justify-content: space-between;
-		align-items: center;
-		list-style: none; */
-	/* background: var(--headline-text-color); */
-	/* background-size: contain; */
-	/* } */
-
-	/* li {
-		position: relative;
-		height: 100%;
-	} */
-
-	/* li.active::after {
-		content: '';
-		width: 100%;
-		height: 0.25em;
-		position: absolute;
-		bottom: 0;
-		left: 0;
-		right: 0;
-		background-color: #115175;
-	} */
-
-	/* .mobileMenu a {
-		width: calc(100% - 2em);
-		display: flex;
-		height: 100%;
-		align-items: center;
-		padding: 0 1em;
-		color: var(--heading-color);
-		font-weight: 500;
-		font-size: 1.5em;
-		text-transform: uppercase;
-		letter-spacing: 0.1em;
-		text-decoration: none;
-		transition: color 0.2s linear;
-	}
-
-	a:hover {
-		color: var(--accent-color);
-	}
-
-	@media (min-width: 30em) {
-		.desktopView {
-			display: none;
-		}
-
-		.mobileView {
-			display: block;
-			background-color: red;
-		}
-
-		ul {
-			flex-direction: row;
-		}
-	}
-
-	@media (min-width: 48em) {
-		.desktopView {
-			display: none;
-		}
-
-		.mobileView {
-			display: block;
-			background-color: green;
-		}
-	}
-
-	@media (min-width: 62em) {
-		.desktopView {
-			display: block;
-			background-color: yellowgreen;
-		}
-
-		.mobileView {
-			display: none;
-		}
-
-		ul {
-			justify-content: space-evenly;
-		}
-	}
-
-	@media (min-width: 75em) {
-		.desktopView {
-			display: block;
-			background-color: blue;
-		}
-
-		.mobileView {
-			display: none;
-		}
-	} */
-	/* @media (max-width: 78.125em) {
-		.desktopView {
-			display: none;
-		}
-
-		.mobileView {
-			display: block;
-		}
-		/* ul {
-			display: flex;
-			flex-direction: row;
-			justify-content: space-between;
-			align-items: center;
-		}
-		li:nth-child(2) {
-			display: flex;
-			justify-content: center;
-			align-items: center;
-			padding-right: 1em;
-		} 
-	} */
-</style>

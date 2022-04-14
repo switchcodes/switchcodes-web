@@ -19,21 +19,8 @@
 </svelte:head>
 
 <div class="content">
-	<h1>About this app</h1>
-
 	<p>
-		This is a <a href="https://kit.svelte.dev">SvelteKit</a> app. You can make your own by typing the
-		following into your command line and following the prompts:
-	</p>
-
-	<!-- TODO lose the @next! -->
-	<pre>npm init svelte@next</pre>
-
-	<p>
-		The page you're looking at is purely static HTML, with no client-side interactivity needed.
-		Because of that, we don't need to load any JavaScript. Try viewing the page's source, or opening
-		the devtools network panel and reloading. Lorem ipsum dolor sit amet, consectetur adipisicing
-		elit. Laborum adipisci consequuntur exercitationem dolores? Sapiente temporibus delectus
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum adipisci consequuntur exercitationem dolores? Sapiente temporibus delectus
 		distinctio autem beatae voluptas eveniet molestiae, tempore aliquam in consectetur magni illo
 		voluptatem quod! Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi blanditiis
 		harum tempora alias necessitatibus mollitia dolorem voluptatum unde, quasi voluptas deserunt ex
@@ -77,11 +64,6 @@
 		deleniti repudiandae. Repellendus perferendis consequuntur suscipit adipisci, minus rerum! Dicta
 		praesentium nostrum repudiandae sit. Sit consequatur error ab cupiditate maxime incidunt illo
 		cum est.
-	</p>
-
-	<p>
-		The <a href="/todos">TODOs</a> page illustrates SvelteKit's data loading and form handling. Try using
-		it with JavaScript disabled!
 	</p>
 </div>
 
