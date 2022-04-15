@@ -24,34 +24,29 @@
 <svelte:head>
 	<title>Home</title>
 </svelte:head>
-<div class="h-full w-full flex-[1_0_auto]">
-	<section class="bg-gradient-to-br from-darkbg to-dark0 bg-cover">
-		<div class=" p-4 pt-28 relative font-barlow text-bright1 text-3xl font-medium ">
-			<picture
-				class="hidden md:block md:opacity-30 lg:opacity-50 w-96 h-96 absolute right-0 top-5 z-0"
-			>
-				<!-- <source srcset="${logo_AVIF}" type="image/avif" />
-				<source srcset="${logo_WEBP}" type="image/webp" /> -->
-				<img
-					src={logoRender}
-					alt="displays a rendered version of the switchcodes logo"
-					class="z-0"
-				/>
-			</picture>
-			<h1 class="font-semibold text-4xl pb-2 z-30">We make projects for fun</h1>
-			<h3 class="font-light text-2xl mb-28 md:mb-48 z-30">
-				Make more of your life and do something for the community too
-			</h3>
-			<a
-				sveltekit:prefetch
-				href="/selection"
-				class=" bg-dark1 focus:bg-dark2 py-4 px-8 -bottom-8 shadow-lg absolute"
-			>
-				Learn more
-			</a>
-		</div>
+
+<article class="pt-16 md:pt-24 h-full w-full bg-bright2">
+	<section
+		class=" p-4 py-16 font-barlow text-bright1 text-3xl font-medium bg-gradient-to-br from-darkbg to-dark0 bg-cover"
+	>
+		<picture
+			class="hidden md:block md:opacity-30 lg:opacity-50 w-96 h-96 absolute right-0 top-5 z-0"
+		>
+			<img src={logoRender} alt="displays a rendered version of the switchcodes logo" class="z-0" />
+		</picture>
+		<h1 class="font-semibold text-4xl pb-2 z-30">We make projects for fun</h1>
+		<h3 class="font-light text-2xl md:mb-48 z-30">
+			Make more of your life and do something for the community too
+		</h3>
+		<a
+			sveltekit:prefetch
+			href="/selection"
+			class=" bg-dark1 focus:bg-dark2 py-4 px-8 -bottom-8 shadow-lg"
+		>
+			Learn more
+		</a>
 	</section>
-	<section class="pt-10 md:pt-0 w-full grid place-items-center font-barlow font-bold text-darkbg">
+	<section class=" w-full grid place-items-center font-barlow font-bold text-darkbg">
 		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum adipisci consequuntur
 		exercitationem dolores? Sapiente temporibus delectus distinctio autem beatae voluptas eveniet
 		molestiae, tempore aliquam in consectetur magni illo voluptatem quod! Lorem ipsum dolor sit amet
@@ -141,4 +136,4 @@
 		praesentium nostrum repudiandae sit. Sit consequatur error ab cupiditate maxime incidunt illo
 		cum est.
 	</section>
-</div>
+</article>

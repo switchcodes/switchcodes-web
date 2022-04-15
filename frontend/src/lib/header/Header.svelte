@@ -1,14 +1,10 @@
 <script>
-	import { page } from '$app/stores';
-	import Logo from '../../assets/logo.svg';
 	import Menu from '$lib/Menu.svelte';
 </script>
 
-<header class="flex flex-col w-auto sticky top-0 z-50 h-fit">
-	<!-- class:active={$page.url.pathname === '/about'} -->
-	<!-- sveltekit:prefetch href="/about" -->
-	<nav class="bg-white/60 w-auto backdrop-blur-sm h-fit">
-		<ul class=" hidden md:grid grid-cols-5 place-items-center h-36 font-barlow text-4xl">
+<header class="flex flex-col-reverse md:flex-col">
+	<nav class="bg-white/60 backdrop-blur-sm top-0 h-fit w-full fixed">
+		<ul class=" hidden md:grid grid-cols-5 place-items-center h-24 font-barlow text-4xl">
 			<li>
 				<a sveltekit:prefetch href="/about" class="active:font-medium select-none"> About </a>
 			</li>
