@@ -7,7 +7,7 @@
 <div class="h-full relative">
 	<Header />
 	
-	<main class="w-full h-full p-0 m-0 flex flex-col">
+	<main class="w-full h-[calc(100%_-_4em)] p-0 m-0 flex flex-col">
 		<slot />
 	</main>
 	<Footer />

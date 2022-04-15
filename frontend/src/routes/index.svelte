@@ -27,26 +27,31 @@
 
 <article class="pt-16 md:pt-24 h-full w-full bg-bright2">
 	<section
-		class=" p-4 py-16 font-barlow text-bright1 text-3xl font-medium bg-gradient-to-br from-darkbg to-dark0 bg-cover"
+		class="p-4 py-16 h-full w-full flex flex-col justify-around font-barlow text-bright1 text-3xl font-medium bg-gradient-to-br from-darkbg to-dark0 bg-cover"
 	>
+	<div>
 		<picture
 			class="hidden md:block md:opacity-30 lg:opacity-50 w-96 h-96 absolute right-0 top-5 z-0"
 		>
 			<img src={logoRender} alt="displays a rendered version of the switchcodes logo" class="z-0" />
 		</picture>
 		<h1 class="font-semibold text-4xl pb-2 z-30">We make projects for fun</h1>
-		<h3 class="font-light text-2xl md:mb-48 z-30">
+		<h3 class="font-light text-2xl md:mb-48 z-30 mb-12">
 			Make more of your life and do something for the community too
 		</h3>
 		<a
 			sveltekit:prefetch
 			href="/selection"
-			class=" bg-dark1 focus:bg-dark2 py-4 px-8 -bottom-8 shadow-lg"
+			class="bg-dark1 focus:bg-dark2 py-4 px-8 shadow-lg"
 		>
 			Learn more
 		</a>
+	</div>
+	<div class="font-light text-md grid place-items-center pt-32">
+		More content coming soon
+	</div>
 	</section>
-	<section class=" w-full grid place-items-center font-barlow font-bold text-darkbg">
+	<!-- <section class=" w-full grid place-items-center font-barlow font-bold text-darkbg">
 		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum adipisci consequuntur
 		exercitationem dolores? Sapiente temporibus delectus distinctio autem beatae voluptas eveniet
 		molestiae, tempore aliquam in consectetur magni illo voluptatem quod! Lorem ipsum dolor sit amet
@@ -135,5 +140,5 @@
 		deleniti repudiandae. Repellendus perferendis consequuntur suscipit adipisci, minus rerum! Dicta
 		praesentium nostrum repudiandae sit. Sit consequatur error ab cupiditate maxime incidunt illo
 		cum est.
-	</section>
+	</section> -->
 </article>

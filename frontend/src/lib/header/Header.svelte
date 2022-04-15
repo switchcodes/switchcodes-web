@@ -3,7 +3,7 @@
 </script>
 
 <header class="flex flex-col-reverse md:flex-col">
-	<nav class="bg-white/60 backdrop-blur-sm top-0 h-fit w-full fixed">
+	<nav class="bg-white/80 backdrop-blur-sm top-0 h-fit w-full fixed">
 		<ul class=" hidden md:grid grid-cols-5 place-items-center h-24 font-barlow text-4xl">
 			<li>
 				<a sveltekit:prefetch href="/about" class="active:font-medium select-none"> About </a>
