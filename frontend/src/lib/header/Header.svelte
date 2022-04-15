@@ -3,18 +3,18 @@
 </script>
 
 <header class="flex flex-col-reverse md:flex-col">
-	<nav class="bg-white/80 backdrop-blur-sm top-0 h-fit w-full fixed">
-		<ul class=" hidden md:grid grid-cols-5 place-items-center h-24 font-barlow text-4xl">
+	<nav class="fixed top-0 h-fit w-full bg-white/80 backdrop-blur-sm">
+		<ul class=" font-barlow hidden h-24 grid-cols-5 place-items-center text-4xl md:grid">
 			<li>
-				<a sveltekit:prefetch href="/about" class="active:font-medium select-none"> About </a>
+				<a sveltekit:prefetch href="/about" class="select-none active:font-medium"> About </a>
 			</li>
 			<li>
-				<a sveltekit:prefetch href="/projects" class="active:font-medium select-none"> Projects </a>
+				<a sveltekit:prefetch href="/projects" class="select-none active:font-medium"> Projects </a>
 			</li>
 			<li class="relative">
 				<a sveltekit:prefetch href="/">
 					<svg
-						class="w-full h-full py-3"
+						class="h-full w-full py-3"
 						viewBox="0 0 360 45"
 						fill="none"
 						xmlns="http://www.w3.org/2000/svg"
@@ -50,19 +50,19 @@
 				</a>
 			</li>
 			<li>
-				<a sveltekit:prefetch href="/inspiration" class="active:font-medium select-none">
+				<a sveltekit:prefetch href="/inspiration" class="select-none active:font-medium">
 					Inspiration
 				</a>
 			</li>
 			<li>
-				<a sveltekit:prefetch href="/contact" class="active:font-medium select-none"> Contact </a>
+				<a sveltekit:prefetch href="/contact" class="select-none active:font-medium"> Contact </a>
 			</li>
 		</ul>
-		<ul class=" md:bg-dark2 lg:bg-dark0 flex md:hidden w-full h-16 flex-row justify-between">
-			<li class="p-4">
-				<a sveltekit:prefetch href="/">
+		<ul class=" md:bg-dark2 lg:bg-dark0 flex h-16 w-full flex-row justify-between md:hidden">
+			<li class="py-4">
+				<a sveltekit:prefetch href="/" class="grid place-items-center">
 					<svg
-						class="w-full h-full"
+						class="h-5/6 w-full"
 						viewBox="0 0 360 45"
 						fill="none"
 						xmlns="http://www.w3.org/2000/svg"
