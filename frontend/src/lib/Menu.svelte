@@ -7,7 +7,7 @@
 	};
 </script>
 
-<div class="h-full relative ">
+<div class="relative h-full">
 	<button class="h-full" on:click={btnHandler}>
 		<svg class="h-full p-4" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
 			<rect width="128" height="24.9756" fill="#61B8E8" />

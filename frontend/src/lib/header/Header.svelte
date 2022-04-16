@@ -4,14 +4,16 @@
 
 <header class="flex-col-reverses flex md:flex-col">
 	<nav class="fixed top-0 h-fit w-full bg-white/80 backdrop-blur-sm">
-		<ul class=" font-barlow hidden h-24 grid-cols-5 place-items-center text-4xl md:grid">
+		<ul
+			class="font-barlow text-darkblue2 hidden h-24 select-none grid-cols-6 place-items-center active:font-medium md:grid md:text-3xl"
+		>
 			<li>
-				<a sveltekit:prefetch href="/about" class="select-none active:font-medium"> About </a>
+				<a sveltekit:prefetch href="/about"> About </a>
 			</li>
 			<li>
-				<a sveltekit:prefetch href="/projects" class="select-none active:font-medium"> Projects </a>
+				<a sveltekit:prefetch href="/projects"> Projects </a>
 			</li>
-			<li class="relative">
+			<li class="relative col-span-2">
 				<a sveltekit:prefetch href="/">
 					<svg
 						class="h-full w-full py-3"
@@ -50,12 +52,10 @@
 				</a>
 			</li>
 			<li>
-				<a sveltekit:prefetch href="/inspiration" class="select-none active:font-medium">
-					Inspiration
-				</a>
+				<a sveltekit:prefetch href="/inspiration"> Inspiration </a>
 			</li>
 			<li>
-				<a sveltekit:prefetch href="/contact" class="select-none active:font-medium"> Contact </a>
+				<a sveltekit:prefetch href="/contact"> Contact </a>
 			</li>
 		</ul>
 		<ul class=" md:bg-dark2 lg:bg-dark0 flex h-16 w-full flex-row justify-between md:hidden">
