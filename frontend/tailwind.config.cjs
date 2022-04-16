@@ -14,8 +14,8 @@ const config = {
 				bright1: '#ffffff',
 				bright2: '#F9FAFC',
 				darkbg: '#040A17',
-				darkblue: '#182D4F',
-				darkblue2: '#0A0E18',
+				darkblue: '#090D16',
+				darkblue2: '#122545',
 				dark0: '#115175',
 				dark1: '#269de0',
 				dark2: '#52b9f5'

@@ -4,11 +4,9 @@
 	import Footer from '$lib/header/Footer.svelte';
 </script>
 
-<div class="h-full relative">
-	<Header />
-	
-	<main class="w-full h-[calc(100%_-_4em)] p-0 m-0 flex flex-col">
-		<slot />
-	</main>
-	<Footer />
-</div>
+<Header />
+
+<main class="m-0 flex h-fit w-full flex-col p-0 pt-16 md:pt-24">
+	<slot />
+</main>
+<Footer />

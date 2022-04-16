@@ -1,11 +1,13 @@
 <script>
 </script>
 
-<footer class=" w-full h-16 bottom-0 bg-gradient-to-r from-darkblue2 to-darkblue">
+<footer class=" from-darkblue2 to-darkblue h-16 w-full bg-gradient-to-r md:h-24">
 	<ul
-		class="w-full h-full flex flex-row justify-between p-4 items-center font-barlow text-bright1 text-2xl"
+		class="font-barlow text-bright1 flex h-full w-full flex-row items-center justify-between p-4 text-2xl"
 	>
-		<li>office@switchcodes.dev</li>
-		<li>FAQ</li>
+		<li>
+			<a href="mailto:office@switchcodes.dev?subject=Inquiry">office@switchcodes.dev</a>
+		</li>
+		<li><a sveltekit:prefetch href="/faq">FAQ</a></li>
 	</ul>
 </footer>

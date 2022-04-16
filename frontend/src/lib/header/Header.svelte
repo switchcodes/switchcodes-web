@@ -2,7 +2,7 @@
 	import Menu from '$lib/Menu.svelte';
 </script>
 
-<header class="flex flex-col-reverse md:flex-col">
+<header class="flex-col-reverses flex md:flex-col">
 	<nav class="fixed top-0 h-fit w-full bg-white/80 backdrop-blur-sm">
 		<ul class=" font-barlow hidden h-24 grid-cols-5 place-items-center text-4xl md:grid">
 			<li>
